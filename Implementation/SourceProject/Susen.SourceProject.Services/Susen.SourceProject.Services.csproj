@@ -119,6 +119,15 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="DataAccess.Data\DataConstants.cs" />
+    <Compile Include="DataAccess.Data\DataExtensions.cs" />
+    <Compile Include="DataAccess\Abstract\Database.cs" />
+    <Compile Include="DataAccess\Abstract\Repository.cs" />
+    <Compile Include="DataAccess\Databases\SqlDatabase.cs" />
+    <Compile Include="DataAccess\Databases\UserContext.cs" />
+    <Compile Include="DataAccess\Interfaces\IDatabase.cs" />
+    <Compile Include="DataAccess\Interfaces\IRepository.cs" />
+    <Compile Include="DataAccess\Interfaces\IUserContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -143,10 +152,27 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="BusinessAccess\Interfaces\" />
+    <Folder Include="BusinessAccess\Mocks\" />
+    <Folder Include="BusinessAccess\Services\" />
+    <Folder Include="DbUp\Scripts\" />
+    <Folder Include="Entities\Args\Abstract\" />
+    <Folder Include="Entities\Results\" />
+    <Folder Include="Handlers\" />
     <Folder Include="Models\" />
+    <Folder Include="Services\Abstract\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Services\Proxies\" />
+    <Folder Include="Services\Requests\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Susen.SourceProject.Common\Susen.SourceProject.Common.csproj">
+      <Project>{74bc876a-5d1f-465e-84bf-c3f7e439a79a}</Project>
+      <Name>Susen.SourceProject.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
