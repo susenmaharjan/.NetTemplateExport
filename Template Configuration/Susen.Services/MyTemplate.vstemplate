@@ -1,0 +1,95 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Susen.Services</Name>
+    <Description>Customized ASP.NET Web Service project</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Susen.Services</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Susen.SourceProject.Services.csproj" File="Susen.SourceProject.Services.csproj" ReplaceParameters="true">
+      <Folder Name="App_Data" TargetFolderName="App_Data" />
+      <Folder Name="App_Start" TargetFolderName="App_Start">
+        <ProjectItem ReplaceParameters="true" TargetFileName="BundleConfig.cs">BundleConfig.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="FilterConfig.cs">FilterConfig.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RouteConfig.cs">RouteConfig.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WebApiConfig.cs">WebApiConfig.cs</ProjectItem>
+      </Folder>
+      <Folder Name="BusinessAccess" TargetFolderName="BusinessAccess">
+        <Folder Name="Interfaces" TargetFolderName="Interfaces" />
+        <Folder Name="Mocks" TargetFolderName="Mocks" />
+        <Folder Name="Services" TargetFolderName="Services" />
+      </Folder>
+      <Folder Name="Content" TargetFolderName="Content">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Site.css">Site.css</ProjectItem>
+      </Folder>
+      <Folder Name="Controllers" TargetFolderName="Controllers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="HomeController.cs">HomeController.cs</ProjectItem>
+      </Folder>
+      <Folder Name="DataAccess" TargetFolderName="DataAccess">
+        <Folder Name="Abstract" TargetFolderName="Abstract">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Database.cs">Database.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Repository.cs">Repository.cs</ProjectItem>
+        </Folder>
+        <Folder Name="Databases" TargetFolderName="Databases">
+          <ProjectItem ReplaceParameters="true" TargetFileName="SqlDatabase.cs">SqlDatabase.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="UserContext.cs">UserContext.cs</ProjectItem>
+        </Folder>
+        <Folder Name="Interfaces" TargetFolderName="Interfaces">
+          <ProjectItem ReplaceParameters="true" TargetFileName="IDatabase.cs">IDatabase.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="IRepository.cs">IRepository.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="IUserContext.cs">IUserContext.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="DataAccess.Data" TargetFolderName="DataAccess.Data">
+        <ProjectItem ReplaceParameters="true" TargetFileName="DataConstants.cs">DataConstants.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="DataExtensions.cs">DataExtensions.cs</ProjectItem>
+      </Folder>
+      <Folder Name="DbUp" TargetFolderName="DbUp">
+        <Folder Name="Scripts" TargetFolderName="Scripts" />
+      </Folder>
+      <Folder Name="Entities" TargetFolderName="Entities">
+        <Folder Name="Args" TargetFolderName="Args">
+          <Folder Name="Abstract" TargetFolderName="Abstract" />
+        </Folder>
+        <Folder Name="Results" TargetFolderName="Results" />
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="favicon.ico">favicon.ico</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.cs">Global.asax.cs</ProjectItem>
+      <Folder Name="Handlers" TargetFolderName="Handlers" />
+      <Folder Name="Models" TargetFolderName="Models" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Services" TargetFolderName="Services">
+        <Folder Name="Abstract" TargetFolderName="Abstract" />
+        <Folder Name="Interfaces" TargetFolderName="Interfaces" />
+        <Folder Name="Proxies" TargetFolderName="Proxies" />
+        <Folder Name="Requests" TargetFolderName="Requests" />
+      </Folder>
+      <Folder Name="Views" TargetFolderName="Views">
+        <ProjectItem ReplaceParameters="true" TargetFileName="_ViewStart.cshtml">_ViewStart.cshtml</ProjectItem>
+        <Folder Name="Home" TargetFolderName="Home">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Index.cshtml">Index.cshtml</ProjectItem>
+        </Folder>
+        <Folder Name="Shared" TargetFolderName="Shared">
+          <ProjectItem ReplaceParameters="true" TargetFileName="_Layout.cshtml">_Layout.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Error.cshtml">Error.cshtml</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Release.config">Web.Release.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
