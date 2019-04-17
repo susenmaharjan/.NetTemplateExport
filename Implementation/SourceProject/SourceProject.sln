@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Susen.SourceProject.Common", "Susen.SourceProject.Common\Susen.SourceProject.Common.csproj", "{74BC876A-5D1F-465E-84BF-C3F7E439A79A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Susen.SourceProject.Services", "Susen.SourceProject.Services\Susen.SourceProject.Services.csproj", "{DB0354E3-45DA-4987-AD8E-52A19EB9C768}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{74BC876A-5D1F-465E-84BF-C3F7E439A79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74BC876A-5D1F-465E-84BF-C3F7E439A79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74BC876A-5D1F-465E-84BF-C3F7E439A79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0354E3-45DA-4987-AD8E-52A19EB9C768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0354E3-45DA-4987-AD8E-52A19EB9C768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0354E3-45DA-4987-AD8E-52A19EB9C768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0354E3-45DA-4987-AD8E-52A19EB9C768}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

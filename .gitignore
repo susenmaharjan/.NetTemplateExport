@@ -6,3 +6,6 @@
 /Implementation/SourceProject/Susen.SourceProject.Common/bin/Debug
 /Implementation/SourceProject/packages/Newtonsoft.Json.12.0.1
 /Implementation/SourceProject/.vs/SourceProject/v15/Server/sqlite3
+/Implementation/SourceProject/packages
+/Implementation/SourceProject/Susen.SourceProject.Services/bin
+/Implementation/SourceProject/Susen.SourceProject.Services/obj/Debug
