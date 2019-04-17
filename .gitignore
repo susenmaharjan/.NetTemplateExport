@@ -9,3 +9,9 @@
 /Implementation/SourceProject/packages
 /Implementation/SourceProject/Susen.SourceProject.Services/bin
 /Implementation/SourceProject/Susen.SourceProject.Services/obj/Debug
+/Result/ResultProject/.vs/ResultProject/v15/Server/sqlite3
+/Result/ResultProject/packages
+/Result/ResultProject/ResultProject/Susen.ResultProject.Common/bin/Debug
+/Result/ResultProject/ResultProject/Susen.ResultProject.Common/obj/Debug
+/Result/ResultProject/ResultProject/Susen.ResultProject.Services/bin
+/Result/ResultProject/ResultProject/Susen.ResultProject.Services/obj/Debug
