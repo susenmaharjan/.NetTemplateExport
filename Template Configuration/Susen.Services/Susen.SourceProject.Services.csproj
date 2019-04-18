@@ -169,9 +169,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Susen.$(SolutionName).Common\Susen.$(SolutionName).Common.csproj">
+    <ProjectReference Include="..\$(SolutionName).Common\$(SolutionName).Common.csproj">
       <Project>{74bc876a-5d1f-465e-84bf-c3f7e439a79a}</Project>
-      <Name>Susen.$(SolutionName).Common</Name>
+      <Name>$(SolutionName).Common</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
