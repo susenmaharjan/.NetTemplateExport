@@ -8,10 +8,10 @@
     </TemplateData>
     <TemplateContent>
         <ProjectCollection>
-                <ProjectTemplateLink ProjectName="$projectname$.Common">
+                <ProjectTemplateLink ProjectName="$safeprojectname$.Common">
                     Susen.Common\MyTemplate.vstemplate
                 </ProjectTemplateLink>
-                <ProjectTemplateLink ProjectName="$projectname$.Services">
+                <ProjectTemplateLink ProjectName="$safeprojectname$.Services">
                     Susen.Services\MyTemplate.vstemplate
                 </ProjectTemplateLink>
         </ProjectCollection>
